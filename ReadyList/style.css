@@ -31,6 +31,18 @@ h3 {
   color: #000;
 }
 
+h4 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+}
+
 p {
   font-size: 18px;
   color: #000000;
@@ -68,6 +80,13 @@ p {
 }
 
 /*Body*/
+
+.main-page {
+  height: 100%;
+  text-align: center;
+  background-color: #61c070;
+  /*border: 1px solid black;*/
+}
 
 .center-container {
   width: 960px;
@@ -166,4 +185,28 @@ p {
   margin: auto;
   display: flex;
   align-items: center;
+}
+
+.logo-large {
+  padding-top: 30px;
+  object-fit: contain;
+}
+
+.description {
+  padding-bottom: 25px;
+}
+
+.question-section {
+}
+
+.question {
+  margin: 0 0 10px 0;
+}
+
+.dropdown {
+  margin: 0 0 40px 0;
+}
+
+.get-started {
+  padding: 20px 0 0 0;
 }
